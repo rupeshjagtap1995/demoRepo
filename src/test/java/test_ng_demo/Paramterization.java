@@ -17,7 +17,7 @@ public class Paramterization {
 	
 	WebDriver driver;
 	
-	@Parameters({"browser","username","password"})
+	@Parameters({"browser","username","password"})   //chnages made by other tester
 	@Test(alwaysRun = true)
 	public void BrowserOpen(String browser,String username,String password) throws InterruptedException {
 		
