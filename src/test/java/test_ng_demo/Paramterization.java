@@ -17,8 +17,8 @@ public class Paramterization {
 	
 	WebDriver driver;
 	
-	@Parameters({"browser","username","password"})   //chnages made by other tester
-	@Test(alwaysRun = true)
+	@Parameters({"browser","username","password"})   //chnages made by other tester 
+	@Test(alwaysRun = true) //okay this is my file 
 	public void BrowserOpen(String browser,String username,String password) throws InterruptedException {
 		
 		if (browser.equalsIgnoreCase("chrome")) {
